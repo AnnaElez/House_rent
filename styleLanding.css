@@ -1,0 +1,582 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#opacity{
+    opacity: 0.6;
+}
+
+body{
+    background-color: #dddbdbe7;
+    width: 100vw;
+}
+
+
+/* Header */
+
+
+
+header{
+    height: 110vh;
+    background-image:linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%), url('photo/backhouse.png');
+    background-size: cover;
+    color: white;
+}
+
+.menuul{
+    display: flex;
+    justify-content: center;
+    margin-left: 25vw;
+}
+
+ul{
+    display: flex;
+}
+
+header li{
+    margin-left:50px;
+    margin-top: 60px;
+    font-size: 1rem;
+}
+
+.lia{
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    left: 15%; 
+    top: 60px;
+}
+
+.workwithus{
+   position: relative;
+   background-color:#FFAC12;
+   border-radius: 0px 18px 0px 0px;
+   padding: 20px;
+   margin-top: 40px;
+}
+
+.workwithusa{
+    font-weight: bold;
+    color: black;
+}
+
+.headerh1{
+    display: block;
+    position: absolute;
+    font-size: 5em;
+    line-height: 100px;
+    left: 15%; 
+    top: 35vh; 
+}
+
+.headerp{
+    display: block;
+    position: relative;
+    width: 500px;
+    left: 15%; 
+    top: 70vh;
+    font-size: 1.5em;
+    font-weight:lighter;
+    margin-bottom: 20px;
+}
+
+/* Button header */
+
+.seeall{
+    display: flex;
+    justify-items: flex-start;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    width:66vw;
+    height: auto;
+    top: 72vh;
+    margin:auto;
+    padding: 30px;
+}
+
+.seea{
+    color: black;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/* Main Good hands part */
+
+.goodhands{
+    height: 100vh;
+    background-color: white;
+}
+
+.team{
+    display: inline-block;
+    margin-top: 100px;
+    width: 50vw;
+}
+
+.textgood{
+    position: relative;    
+    display: inline-block;
+    width: 35vw;
+    bottom: 300px;
+    margin-left: 30px;
+}
+
+.textgood h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.textgood p{
+    font-size:1.5em;
+    width: 30vw;
+}
+
+.line{
+    width: 200px;
+    height: 5px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+}
+
+.learnmore{
+    position: relative;
+    background-color:black;
+    border-radius: 0px 18px 0px 0px;
+    padding: 30px;
+    margin-top: 40px;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+.learnmorea{
+    color: white;
+}
+
+.nextplace{
+    height: auto;
+    padding: 15%;
+}
+
+.nextplace h1{
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+
+/* Dropdown menu */
+
+.menudrop{
+    position: absolute;
+    display: inline-block;
+    border-radius: 20px;
+    width: 1100px;
+    height: auto;
+    background-color: white;
+}
+
+.menudrop li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dropdown{
+    position: relative;
+    width: 300px;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;    
+    border-right: 3px solid #dddbdbe7;
+}
+
+.dropdown:hover, .dropdown:hover .dropbtn {
+    background-color:#949292;
+    color: white;
+}
+
+.dropdown-content {
+    position: absolute;
+    left: 0%;
+    right: 0;
+    bottom: auto;
+    display: none;
+    background-color: #f9f9f9;
+    top: 100%;
+}
+
+.dropdown-content a {
+    color: black;
+    display: block;
+    padding:10px ;
+}
+
+.dropdown-content a:hover {
+    background-color:#949292;
+    color: white;
+}
+    
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#border1:hover{
+    border-radius: 20px 0px 0px 20px;
+}
+
+#border2:hover{
+    border-radius: 0px 20px 20px 0px;
+}
+
+#border{
+    border-left: 0px;
+}
+
+
+
+/* Collections of houses */
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    position: relative;
+    width: 70vw;
+    height: auto;
+    left: 15%;
+}
+
+.each{
+    display: inline-block;
+    position: relative;
+} 
+
+.properties{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    top: 0px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#each{
+    margin-bottom: 300px;
+}
+
+.a{
+    grid-column: 1/4 ;
+    grid-row: 1; 
+    border-bottom:2px solid #dddbdbe7; 
+}
+
+.b,.c{
+    border-right:2px solid #dddbdbe7; 
+}
+
+.properties{
+    border-radius: 0px 0px 20px 20px;
+}
+
+.properties p,img{
+    display: inline-block;
+}
+
+.a p, .b p, .c p, .d p{
+    padding: 20px;
+}
+
+.properties i{
+    padding-left:20px;
+}
+
+
+/* Good hands reverse */
+
+
+.goodhands1{
+    padding-left: 15%;
+    height: 100vh;
+    background-color:white;
+}
+
+.team1{
+    display:inline-block; 
+    position: relative;
+    bottom:130px;
+    left: 0px;
+    width: 50vw;
+    transform: scale(-1, 1);
+}
+
+.textgood1{
+    position: relative;
+    display: inline-block;
+    width: 30vw;
+    bottom: 300px;
+    margin-right: 60px;
+    background-color: white;
+}
+
+.textgood1 h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.textgood1 p{
+    font-size:1.5em;
+    width: 30vw;
+}
+
+.line{
+    margin-bottom: 40px;
+    width: 200px;
+    height: 5px;
+    background-image: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+}
+
+.learnmore1{
+    background-color:black;
+    border-radius: 0px 18px 0px 0px;
+    padding: 30px;
+    position: relative;
+    margin-top: 40px;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+.learnmorea1{
+    color: white;
+}
+
+
+
+/* Div with black background */
+
+
+
+.black{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+    color: white;
+    text-align: center;
+}
+
+.lineyellow{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 300px;
+    height: 10px;
+    background: linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
+    border-radius: 2px;
+    transform: translate(-50%, -50%);
+}
+
+.texth1{
+    position: absolute;
+    font-size: 3em;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textp{
+    position: absolute;
+    font-size: 1.5em;
+    width: 450px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.workwithusdiv{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 200px;
+    background-color:#FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    padding: 20px;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+
+/* Reviews part */
+
+
+
+.review{
+    position: relative;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+#line{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+}
+
+.properties1{
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr;
+    top: 450px;
+    background-color: white;
+    width: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.properties1 .a{
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.properties1 *{
+    border: 0px;  
+}
+
+#b{
+    padding: 20px;
+    width: 300px;
+    height: auto;
+}
+
+#b p{
+    padding:20px;
+    display: inline-block;
+    width: 200px;
+}
+
+.properties1 .d{
+    margin-left: 50px;
+}
+
+.properties1 .c{
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+}
+
+.properties1 p,h2{
+    padding: 0px;
+}
+
+
+
+/* Footer */
+
+
+footer{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding-top: 100px;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 45.25%);
+    color: white;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+footer h1{
+    position: absolute;
+    display: inline-block;
+    font-size: 3em;
+}
+
+footer .workwithusdiv{
+    display: inline-block;
+    position: relative;
+    transform: none;
+    top: 0px ;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+footer span{
+    color:#FFAC12;
+}
+
+.begin {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    height: 100px;
+    border-bottom: 2px solid #dddbdbe7; 
+}
+
+.fa-arrow-right{
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
+
+#fa-arrow-right{
+    color: #FFAC12;
+}
+
+.main{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10%;
+    left:15%;
+    width: 70vw;
+    margin-top: 80px;
+}
+
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 150px;
+}
+
+#log{
+    width: 120px;
+    grid-column: 1/4 ;
+    grid-row: 1; 
+    padding-bottom: 40px;
+}
+
+.contact *{
+    padding: 10px;
+}
+
+.headingfooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.main a{
+    color: white;
+    padding: 8px;
+}
