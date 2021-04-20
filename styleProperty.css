@@ -1,13 +1,51 @@
-*{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    font-family: 'DM Sans', sans-serif;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
 }
 
-#opacity {
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.opacity{
     opacity: 0.6;
 }
 
@@ -15,6 +53,66 @@ body{
     background-color: #dddbdbe7;
     width: 100vw;
 }
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, p, a, .input{
+    font-family: 'DM Sans', sans-serif;
+} 
+
+.button{
+    position: relative;
+    border-radius: 0px 18px 0px 0px;
+    padding: 20px;
+    margin-top: 40px;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+.button_orange{
+    background-color:#FFAC12;
+}
+
+.button_black{
+    background-color:black;
+}
+
+.button_center{
+    position: relative;
+    top: 80%;
+    margin: auto;
+}
+
+.button_right{
+    float: right;
+    margin-top: 0px;
+}
+
+.text_black{
+    color: black;
+    font-weight: bold;
+}
+
+.text_white{
+    color: white;
+    font-weight: bold;
+}
+
+
+.all_h2{
+    border-bottom:2px solid #dddbdbe7; 
+    padding: 25px;
+}
+
+
+.all_borders_round{
+    border-radius: 20px;
+}
+
+
 
 /* Header */
 
@@ -43,6 +141,7 @@ header li{
     margin-left:35px;
     margin-top: 60px;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .lia{
@@ -56,39 +155,24 @@ header li{
     top: 60px;
 }
 
-.workwithus{
-position: relative;
-   background-color:#FFAC12;
-   border-radius: 0px 18px 0px 0px;
-   padding: 20px;
-   margin-top: 40px;
-}
-
-.workwithusa{
-    font-weight: bold;
-    color: black;
-}
-
-.headerdiv{
+.header_div{
     width: 100vw;
     padding: 30px 0px 30px 0px;
     border-top: 1px solid #dddbdb59; 
     display: inline-block;
 }
 
-.headerdiv *{
-    position: relative;
-}
-
-.headername{
+.header_block{
     position: relative;
     display: inline-block;
+}
+
+.header_name{
     margin-right: 55%;
     left: 15%;
 }
 
-.headerprice{
-    display: inline-block;
+.header_price{
     text-align: right;   
 }
 
@@ -118,16 +202,11 @@ main div{
     padding: 10px;
 }
 
-#house7{
-    padding-top: 0px;
-}
-
 .resume{
     display: inline-block;
     width: 25%;
     height: auto;
     background-color: white;
-    border-radius: 20px;
     padding: 10px;
 }
 
@@ -171,26 +250,6 @@ input:focus, textarea:focus{
     outline: none;
 }
 
-#email{
-    margin-bottom: 0px;
-}
-
-.learnmore{
-    position: relative;
-    background-color:black;
-    border-radius: 0px 18px 0px 0px;
-    padding: 20px;
-    margin: 0px 10px 10px 10px;
-    width: 220px;
-    height: auto;
-    text-align: center;
-}
-
-.learnmorea{
-    color: white;
-}
-
-
 /* House details */
 
 .properties{
@@ -198,29 +257,27 @@ input:focus, textarea:focus{
     position: relative;
     grid-template-columns: repeat(5, 1fr);
     background-color: white;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    border-radius: 20px 20px 20px 20px;
+    margin: 30px 0px 30px 0px;
     width: 65%;
 }
 
-#each{
-    margin-bottom: 300px;
-}
-
-.a{
+.details_h2{
     grid-column: 1/6 ;
     grid-row: 1; 
     border-bottom:2px solid #dddbdbe7; 
 }
 
-.b,.c{
+.details_div{
     border-right:2px solid #dddbdbe7; 
 }
 
-.a, .b p, .c p, .d p{
+.border_none{
+    border:0px
+}
+
+.details_h2, .details_div p{
     display: inline-block;
-    padding: 25px 25px 25px 15px;
+    padding: 25px;
 }
 
 .properties i{
@@ -238,17 +295,11 @@ input:focus, textarea:focus{
     position: relative;
     background-color: white;
     margin-bottom: 30px;
-    border-radius: 20px 20px 20px 20px;
     width: 65%;
 }
 
-.desca{
-    padding: 30px;  
-}
-
 .descp{
-    padding: 40px; 
-    border-top:2px solid #dddbdbe7;  
+    padding: 30px; 
 }
 
 /* Features */
@@ -256,15 +307,11 @@ input:focus, textarea:focus{
 .features{
     position: relative;
     background-color: white;
-    border-radius: 20px 20px 20px 20px;
     width: 65%;
 }
 
-.fetgrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 40px;
-    border-top:2px solid #dddbdbe7;  
+.fetgrid{ 
+    padding: 30px;
     text-align: center;
 }
 
@@ -281,49 +328,58 @@ input:focus, textarea:focus{
 /* Similar houses */
 
 
-.grid2{
+.grid_three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid{
     position: relative;
     width: 80vw;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.each2{
+.each{
     display: inline-block;
     position: relative;
 } 
 
-.each2 img{
-    width: 90%;
-}
-
-.properties2{
-    display: grid;
+.properties_dropdown{
     position: relative;
-    grid-template-columns: 1fr 1fr 1fr;
-    top: 0px;
-    background-color: white;
     width: 90%;
+    top: 0px;
     margin-bottom: 30px;
+    background-color: white;
 }
 
-.b,.c{
-    border-right:2px solid #dddbdbe7; 
+.each img{
+    width: 90%;
 }
 
-.properties2{
-    border-radius: 0px 0px 20px 20px;
-}
-
-.properties2 p,img{
+.properties_dropdown .b{
     display: inline-block;
 }
 
-.a p, .b p, .c p, .d p{
+.top_grid p, .b p{
     padding: 20px;
 }
 
-.properties2 i{
+.top_grid{
+    grid-column: 1/4 ;
+    grid-row: 1; 
+    border-bottom:2px solid #dddbdbe7; 
+}
+
+.b{
+    border-right:2px solid #dddbdbe7; 
+}
+
+.properties_dropdown p,i{
+    display: inline-block;
+}
+
+.properties_dropdown i{
     padding-left:20px;
 }
 
@@ -340,8 +396,7 @@ input:focus, textarea:focus{
 }
 
 
-/* Footer  */
-
+/* Footer */
 
 
 footer{
@@ -358,13 +413,12 @@ footer{
 footer h1{
     position: absolute;
     display: inline-block;
-    font-size: 3em;
 }
 
 footer .workwithusdiv{
     display: inline-block;
-    transform: none;
     position: relative;
+    transform: none;
     top: 0px ;
     margin-top: 0px;
     margin-left: 300px;
@@ -383,13 +437,13 @@ footer span{
 }
 
 .fa-arrow-right{
-    display: inline-block;
     color: white;
     padding: 8px;
+    display: inline-block;
 }
 
 #fa-arrow-right{
-    color:#FFAC12;
+    color: #FFAC12;
 }
 
 .main{
@@ -402,17 +456,17 @@ footer span{
     margin-top: 80px;
 }
 
+
 .contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     width: 150px;
 }
 
-#log{
+.log{
     width: 120px;
     grid-column: 1/4 ;
     grid-row: 1; 
     padding-bottom: 40px;
+    border: 0px;
 }
 
 .contact *{
@@ -427,26 +481,4 @@ footer span{
 .main a{
     color: white;
     padding: 8px;
-}
-
-footer .workwithusdiv{
-    display: inline-block;
-    position: relative;
-    transform: none;
-    top: 0px ;
-    margin-top: 0px;
-    margin-left: 300px;
-}
-
-.workwithusdiv{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    width: 200px;
-    background-color:#FFAC12;
-    border-radius: 0px 18px 0px 0px;
-    padding: 20px;
-    margin-top: 20px;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
 }

@@ -1,19 +1,117 @@
-*{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    font-family: 'DM Sans', sans-serif;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-#opacity{
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.opacity{
     opacity: 0.6;
 }
 
 body{
     background-color: #dddbdbe7;
     width: 100vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, p, a{
+    font-family: 'DM Sans', sans-serif;
+} 
+
+h1,h2,h3,h4{
+    font-weight: bold;
+}
+
+.font_three{
+    font-size: 3em;
+}
+
+
+/* Buttons */
+
+.button{
+    position: relative;
+    border-radius: 0px 18px 0px 0px;
+    padding: 20px;
+    margin-top: 40px;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+.button_orange{
+    background-color:#FFAC12;
+}
+
+.button_black{
+    background-color:black;
+}
+
+.button_center{
+    position: relative;
+    top: 80%;
+    margin: auto;
+}
+
+.button_right{
+    float: right;
+    margin-top: 0px;
+}
+
+.text_black{
+    color: black;
+    font-weight: bold;
+}
+
+.text_white{
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -42,6 +140,7 @@ header li{
     margin-left:50px;
     margin-top: 60px;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .lia{
@@ -55,38 +154,29 @@ header li{
     top: 60px;
 }
 
-.workwithus{
-   position: relative;
-   background-color:#FFAC12;
-   border-radius: 0px 18px 0px 0px;
-   padding: 20px;
-   margin-top: 40px;
-}
-
-.workwithusa{
-    font-weight: bold;
-    color: black;
-}
-
-.headerh1{
+.header_text{
     display: block;
+    left: 15%; 
+}
+
+.header_h1{
     position: absolute;
     font-size: 5em;
-    line-height: 100px;
-    left: 15%; 
+    font-weight: bold;
     top: 35vh; 
 }
 
-.headerp{
-    display: block;
+.header_p{
     position: relative;
     width: 500px;
-    left: 15%; 
     top: 70vh;
     font-size: 1.5em;
     font-weight:lighter;
     margin-bottom: 20px;
 }
+
+
+
 
 /* Button header */
 
@@ -106,33 +196,23 @@ header li{
 .seea{
     color: black;
     font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
 }
 
 
 /* Main Good hands part */
 
-.goodhands{
-    height: 100vh;
-    background-color: white;
-}
-
-.team{
-    display: inline-block;
-    margin-top: 100px;
-    width: 50vw;
-}
-
 .textgood{
     position: relative;    
     display: inline-block;
-    width: 35vw;
+    width: 30vw;
     bottom: 300px;
+}
+
+.left{
     margin-left: 30px;
 }
 
 .textgood h1{
-    font-size: 3em;
     margin-bottom: 20px;
 }
 
@@ -141,26 +221,27 @@ header li{
     width: 30vw;
 }
 
-.line{
-    width: 200px;
-    height: 5px;
-    margin-bottom: 40px;
-    background-image: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+.goodhands{
+    height: 100vh;
+    background-color: white;
 }
 
-.learnmore{
+.goodhands_reverse{
+    padding-left: 15%;
+}
+
+.team{
+    display: inline-block;
+    margin-top: 100px;
+    width: 50vw;
+}
+
+.team_reverse{
     position: relative;
-    background-color:black;
-    border-radius: 0px 18px 0px 0px;
-    padding: 30px;
-    margin-top: 40px;
-    width: 180px;
-    height: auto;
-    text-align: center;
-}
+    bottom:130px;
+    left: 0px;
+    transform: scale(-1, 1);
 
-.learnmorea{
-    color: white;
 }
 
 .nextplace{
@@ -169,7 +250,6 @@ header li{
 }
 
 .nextplace h1{
-    font-size: 3em;
     margin-bottom: 50px;
 }
 
@@ -196,9 +276,7 @@ header li{
 .dropdown{
     position: relative;
     width: 300px;
-    padding: 30px;
-    padding-left: 100px;
-    padding-right: 100px;    
+    padding: 30px 100px 30px 100px;
     border-right: 3px solid #dddbdbe7;
 }
 
@@ -246,15 +324,12 @@ header li{
 }
 
 
-
 /* Collections of houses */
-
-
 
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0px;
+    grid-gap: 0px; 
     position: relative;
     width: 70vw;
     height: auto;
@@ -266,203 +341,30 @@ header li{
     position: relative;
 } 
 
-.properties{
+.properties_grid{
     display: grid;
-    position: relative;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+} 
+
+.properties_dropdown{
+    position: relative;
     width: 90%;
     top: 0px;
-    background-color: white;
     margin-bottom: 30px;
-}
-
-#each{
-    margin-bottom: 300px;
-}
-
-.a{
-    grid-column: 1/4 ;
-    grid-row: 1; 
-    border-bottom:2px solid #dddbdbe7; 
-}
-
-.b,.c{
-    border-right:2px solid #dddbdbe7; 
-}
-
-.properties{
     border-radius: 0px 0px 20px 20px;
 }
 
-.properties p,img{
+
+
+.properties_dropdown p,img{
     display: inline-block;
 }
 
-.a p, .b p, .c p, .d p{
-    padding: 20px;
-}
-
-.properties i{
+.properties_dropdown i{
     padding-left:20px;
-}
+} 
 
-
-/* Good hands reverse */
-
-
-.goodhands1{
-    padding-left: 15%;
-    height: 100vh;
-    background-color:white;
-}
-
-.team1{
-    display:inline-block; 
-    position: relative;
-    bottom:130px;
-    left: 0px;
-    width: 50vw;
-    transform: scale(-1, 1);
-}
-
-.textgood1{
-    position: relative;
-    display: inline-block;
-    width: 30vw;
-    bottom: 300px;
-    margin-right: 60px;
-    background-color: white;
-}
-
-.textgood1 h1{
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.textgood1 p{
-    font-size:1.5em;
-    width: 30vw;
-}
-
-.line{
-    margin-bottom: 40px;
-    width: 200px;
-    height: 5px;
-    background-image: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
-}
-
-.learnmore1{
-    background-color:black;
-    border-radius: 0px 18px 0px 0px;
-    padding: 30px;
-    position: relative;
-    margin-top: 40px;
-    width: 180px;
-    height: auto;
-    text-align: center;
-}
-
-.learnmorea1{
-    color: white;
-}
-
-
-
-/* Div with black background */
-
-
-
-.black{
-    position: relative;
-    height: 100vh;
-    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
-    color: white;
-    text-align: center;
-}
-
-.lineyellow{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    width: 300px;
-    height: 10px;
-    background: linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
-    border-radius: 2px;
-    transform: translate(-50%, -50%);
-}
-
-.texth1{
-    position: absolute;
-    font-size: 3em;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.textp{
-    position: absolute;
-    font-size: 1.5em;
-    width: 450px;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.workwithusdiv{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    width: 200px;
-    background-color:#FFAC12;
-    border-radius: 0px 18px 0px 0px;
-    padding: 20px;
-    margin-top: 20px;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-}
-
-
-/* Reviews part */
-
-
-
-.review{
-    position: relative;
-    height: 100vh;
-    background-color: white;
-    color: black;
-}
-
-#line{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    width: 300px;
-    transform: translate(-50%, -50%);
-}
-
-.properties1{
-    display: grid;
-    position: absolute;
-    grid-template-columns: 1fr 1fr 1fr;
-    top: 450px;
-    background-color: white;
-    width: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.properties1 .a{
-    width: 350px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 30px;
-}
-
-.properties1 *{
-    border: 0px;  
-}
 
 #b{
     padding: 20px;
@@ -476,20 +378,123 @@ header li{
     width: 200px;
 }
 
-.properties1 .d{
-    margin-left: 50px;
+
+.each_bottom_line{
+    margin-bottom: 300px;
 }
 
-.properties1 .c{
+.top_grid{
+    grid-column: 1/4 ;
+    grid-row: 1; 
+    border-bottom:2px solid #dddbdbe7; 
+}
+
+.properties_dropdown .b{
+    border-right:2px solid #dddbdbe7; 
+}
+
+.top_grid p, .b p{
+    padding: 20px;
+}
+
+
+
+/* Div with black background */
+
+.black{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+    color: white;
+    text-align: center;
+}
+
+
+.line_gradient{
+    width: 200px;
+    height: 5px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+}
+
+.line_yellow{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 300px;
+    height: 10px;
+    background: linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
+    border-radius: 2px;
+    transform: translate(-50%, -50%);
+}
+
+
+.text{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_h1{
+    top: 40%;
+}
+
+.text_p{
+    font-size: 1.5em;
+    width: 450px;
+    top: 60%;
+}
+
+
+/* Reviews part */
+
+
+.review{
+    position: relative;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.client_block_black {
     background-color: black;
     color: white;
     margin-left: 30px;
+    margin-right: 30px;
 }
 
-.properties1 p,h2{
-    padding: 0px;
+
+.properties_review .top_grid{
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
+.properties_review{
+    position: absolute;
+    top: 450px;
+    width: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.review_h2{
+    font-size: 1.5em;
+}
+
+.properties_review h2,div{
+    border: 0px;  
+}
+
+
+.line_review{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+}
 
 
 /* Footer */
@@ -509,7 +514,6 @@ footer{
 footer h1{
     position: absolute;
     display: inline-block;
-    font-size: 3em;
 }
 
 footer .workwithusdiv{
@@ -555,16 +559,15 @@ footer span{
 
 
 .contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     width: 150px;
 }
 
-#log{
+.log{
     width: 120px;
     grid-column: 1/4 ;
     grid-row: 1; 
     padding-bottom: 40px;
+    border: 0px;
 }
 
 .contact *{
