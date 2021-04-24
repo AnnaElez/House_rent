@@ -1,0 +1,286 @@
+/* Header */
+
+header{
+    height: 110vh;
+    background-size: cover;
+    background-image:linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%), url('../photo/backhouse.png');
+}
+
+.header_text{
+    display: block;
+    left: 15%; 
+}
+
+.header_h1{
+    position: absolute;
+    font-size: 5em;
+    top: 35vh; 
+}
+
+.header_p{
+    position: relative;
+    width: 500px;
+    top: 70vh;
+    font-size: 1.5em;
+    font-weight:lighter;
+    margin-bottom: 20px;
+}
+
+
+/* Button header */
+
+.seeall{
+    display: flex;
+    justify-items: flex-start;
+    position: relative;
+    width:66vw;
+    top: 72vh;
+    margin:auto;
+    padding: 30px;
+}
+
+/* Main Good hands part */
+
+.textgood{
+    position: relative;    
+    display: inline-block;
+    width: 30vw;
+    bottom: 300px;
+}
+
+.left{
+    margin-left: 30px;
+}
+
+.textgood h1{
+    margin-bottom: 20px;
+}
+
+.textgood p{
+    font-size:1.5em;
+    width: 30vw;
+}
+
+.goodhands{
+    height: 100vh;
+}
+
+.goodhands_reverse{
+    padding-left: 15%;
+}
+
+.team{
+    display: inline-block;
+    margin-top: 100px;
+    width: 50vw;
+}
+
+.team_reverse{
+    position: relative;
+    bottom:130px;
+    left: 0px;
+    transform: scale(-1, 1);
+
+}
+
+.nextplace{
+    padding: 15%;
+}
+
+.nextplace h1{
+    margin-bottom: 50px;
+}
+
+
+
+/* Dropdown menu  */
+.menudrop{
+    position: absolute;
+    display: inline-block;
+    border-radius: 20px;
+    width: auto;
+}
+
+.menudrop li, .dropbtn {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dropdown{
+    position: relative;
+    width: 200px;
+    padding: 50px 30px 50px 30px;
+}
+
+.dropdown:hover {
+    background-color:#949292;
+    color: white;
+}
+
+.dropdown-content {
+    position: absolute;
+    left: 0%;
+    right: 0;
+    bottom: auto;
+    display: none;
+    background-color: #f9f9f9;
+    top: 100%;
+}
+
+.dropdown-content a {
+    display: block;
+    padding:10px ;
+}
+
+.dropdown-content a:hover {
+    background-color:#949292;
+    color: white;
+}
+    
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#border1:hover{
+    border-radius: 20px 0px 0px 20px;
+}
+
+#border2:hover{
+    border-radius: 0px 20px 20px 0px;
+} 
+
+/* Collections of houses */
+
+.grid{
+    position: relative;
+    width: 70vw;
+    left: 15%;
+}
+
+.properties_dropdown{
+    position: relative;
+    width: 90%;
+    top: 0px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.properties_dropdown p,img{
+    display: inline-block;
+}
+
+.properties_dropdown i{
+    padding-left:20px;
+} 
+
+
+.bottom_line{
+    margin-bottom: 200px;
+}
+
+.properties_dropdown .b{
+    border-right:2px solid #dddbdbe7; 
+}
+
+
+
+/* Div with black background */
+
+.black_div{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+}
+
+
+.line_gradient{
+    width: 200px;
+    height: 5px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+}
+
+.line_yellow{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 300px;
+    height: 10px;
+    background: linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
+    border-radius: 2px;
+    transform: translate(-50%, -50%);
+}
+
+
+.text{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_h1{
+    top: 40%;
+}
+
+.text_p{
+    font-size: 1.5em;
+    width: 450px;
+    top: 60%;
+}
+
+
+/* Reviews part */
+
+
+.review{
+    position: relative;
+    height: 100vh;
+}
+
+.client_block {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.client_block p{
+    width: 200px;
+}
+
+.client_block_black {
+    background-color: black;
+}
+
+
+.properties_review .top_grid{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.properties_review{
+    position: absolute;
+    top: 450px;
+    width: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.review_h2{
+    font-size: 1.5em;
+}
+
+.properties_review h2,div{
+    border: 0px;  
+}
+
+.line_review{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+}

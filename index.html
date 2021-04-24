@@ -3,7 +3,9 @@
 
 <head>
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
@@ -13,38 +15,36 @@
 <body>
 
 
-    <header>
+    <header class="text_white">
         <img class="logo" src="photo/logo.png" alt="">
         <menu>
-            <ul class="menuul">
-                <li><a class='lia' href="google.com">NavLink</a></li>
-                <li><a class='lia' href="google.com">NavLink</a></li>
-                <li><a class='lia' href="google.com">NavLink</a></li>
-                <li><a class='lia' href="google.com">NavLink</a></li>
-                <a class="text_black" href="propertypage.html">
-                    <li class="button button_orange">Work with us
-                        <i class="fas fa-arrow-right"></i>
-                    </li>
+            <nav>
+                <a class='text_white' href='https://www.google.ru/' target='_blank'>NavLink</a>
+                <a class='text_white' href='https://www.google.ru/' target='_blank'>NavLink</a>
+                <a class='text_white' href='https://www.google.ru/' target='_blank'>NavLink</a>
+                <a class='text_white' href='https://www.google.ru/' target='_blank'>NavLink</a>
+                <a class="bold text_black button text_center height_auto button_orange" href="propertypage.html"
+                    target='_blank'>Work with us
+                    <i class="fas fa-arrow-right inline_block"></i>
                 </a>
-
-            </ul>
+            </nav>
         </menu>
 
         <h1 class="header_text header_h1">Beautiful <br>homes made<br> for you</h1>
-        <p class="header_text header_p opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <p class="header_text header_p opacity line_height">Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Sit odio officiis labore libero, delectus voluptate. </p>
 
-        <div class="seeall">
-            <a class="seea" href="google.com">
+        <div class="seeall height_auto back_white">
+            <a class="bold text_black" href='https://www.google.ru/' target='_blank'>
                 See all listings
-                <i class="fas fa-arrow-right" id="fa-arrow-right"></i>
+                <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
             </a>
-
         </div>
+
     </header>
 
     <main>
-        <div class="goodhands">
+        <div class="goodhands back_white">
             <img class="team" src="photo/team.png" alt="">
 
             <div class="textgood left">
@@ -54,191 +54,191 @@
                     Voluptate dolores culpa itaque recusandae eligendi odio quaerat.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Fuga incidunt voluptates, aperiam dignissimos alias quis aliquid!</p>
-                <a class="text_white" href="google.com">
-                    <div class="button button_black"> Learn more
-                        <i class="fas fa-arrow-right" id="fa-arrow-right"></i>
-                    </div>
-                </a>
+                <div>
+                    <a class="block button button_black text_white" href='https://www.google.ru/' target='_blank'>Learn
+                        more
+                        <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
+                    </a>
+                </div>
             </div>
         </div>
 
 
-        <div class="nextplace">
+
+
+        <div class="nextplace height_auto">
             <div class="line_gradient"></div>
             <h1 class="font_three">Find your next place to live</h1>
 
-            <div class="menudrop">
+            <div class="menudrop text_center height_auto back_white inline_block">
                 <ul>
-                    <li class="dropdown" id="border1">
-                        <a href="#" class="dropbtn">Looking for</a>
+                    <li class="dropdown bold border_right" id="border1">Looking for
                         <div class="dropdown-content">
-                            <a href="#">House</a>
-                            <a href="#">Flat</a>
+                            <a class="text_black" href="#">House</a>
+                            <a class="text_black" href="#">Flat</a>
                         </div>
                     </li>
 
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">Location</a>
+                    <li class="dropdown bold border_right">Location
                         <div class="dropdown-content">
-                            <a href="#">Yerevan</a>
-                            <a href="#">Amsterdam</a>
-                            <a href="#">Belgrad</a>
+                            <a class="text_black" href="#">Yerevan</a>
+                            <a class="text_black" href="#">Amsterdam</a>
+                            <a class="text_black" href="#">Belgrad</a>
                         </div>
                     </li>
 
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">Property type</a>
+                    <li class="dropdown bold border_right">Property type
                         <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a class="text_black" href="#">Link 1</a>
+                            <a class="text_black" href="#">Link 2</a>
+                            <a class="text_black" href="#">Link 3</a>
                         </div>
                     </li>
 
-                    <li class="dropdown" id="border2">
-                        <a href="#" class="dropbtn">Price</a>
+                    <li class="dropdown bold" id="border2">Price
                         <div class="dropdown-content">
-                            <a href="#">5000$</a>
-                            <a href="#">100$</a>
-                            <a href="#">8000$</a>
+                            <a class="text_black" href="#">5000$</a>
+                            <a class="text_black" href="#">100$</a>
+                            <a class="text_black" href="#">8000$</a>
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> 
         </div>
 
 
-        <div class="grid">
-            <div class="each">
+        <div class="grid grid_three">
+            <div class="each inline_block">
                 <img src="photo/house1.png" alt="">
-                <div class="properties_grid properties_dropdown">
+                <div class="grid_three back_white properties_dropdown all_bottom_borders_round">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-bed"></i>
                         <p>4</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-sink"></i>
                         <p>2</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty">
                         <i class="far fa-sun"></i>
                         <p>2</p>
                     </div>
                 </div>
             </div>
 
-            <div class="each">
+            <div class="each inline_block">
                 <img src="photo/house2.png" alt="">
-                <div class="properties_grid properties_dropdown">
+                <div class="grid_three back_white properties_dropdown all_bottom_borders_round">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-bed"></i>
                         <p>4</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-sink"></i>
                         <p>2</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty">
                         <i class="far fa-sun"></i>
                         <p>2</p>
                     </div>
                 </div>
             </div>
 
-            <div class="each">
+            <div class="each inline_block">
                 <img src="photo/house3.png" alt="">
-                <div class="properties_grid properties_dropdown">
+                <div class="grid_three back_white properties_dropdown all_bottom_borders_round">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-bed"></i>
                         <p>4</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-sink"></i>
                         <p>2</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty">
                         <i class="far fa-sun"></i>
                         <p>2</p>
                     </div>
                 </div>
             </div>
 
-            <div class="each each_bottom_line">
+            <div class="each inline_block bottom_line">
                 <img src="photo/house4.png" alt="">
-                <div class="properties_grid properties_dropdown">
+                <div class="grid_three back_white properties_dropdown all_bottom_borders_round">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-bed"></i>
                         <p>4</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-sink"></i>
                         <p>2</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty">
                         <i class="far fa-sun"></i>
                         <p>2</p>
                     </div>
                 </div>
             </div>
 
-            <div class="each_bottom_line">
+            <div class="each inline_block bottom_line">
                 <img src="photo/house5.png" alt="">
-                <div class="properties_grid properties_dropdown">
+                <div class="grid_three back_white properties_dropdown all_bottom_borders_round">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-bed"></i>
                         <p>4</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-sink"></i>
                         <p>2</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty">
                         <i class="far fa-sun"></i>
                         <p>2</p>
                     </div>
                 </div>
             </div>
 
-            <div class="each_bottom_line">
+            <div class="each inline_block bottom_line">
                 <img src="photo/house6.png" alt="">
-                <div class="properties_grid properties_dropdown">
+                <div class="grid_three back_white properties_dropdown all_bottom_borders_round">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-bed"></i>
                         <p>4</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty border_right">
                         <i class="fas fa-sink"></i>
                         <p>2</p>
                     </div>
-                    <div class="b">
+                    <div class="padding_twenty">
                         <i class="far fa-sun"></i>
                         <p>2</p>
                     </div>
                 </div>
             </div>
+
         </div>
 
 
 
-        <div class="goodhands goodhands_reverse">
+        <div class="goodhands back_white goodhands_reverse">
 
             <div class="textgood">
                 <div class="line_gradient"></div>
@@ -247,10 +247,9 @@
                     Voluptate dolores culpa itaque recusandae eligendi odio quaerat.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Fuga incidunt voluptates, aperiam dignissimos alias quis aliquid!</p>
-                <a class="text_white" href="google.com">
-                    <div class="button button_black"> Learn more
-                        <i class="fas fa-arrow-right" id="fa-arrow-right"></i>
-                    </div>
+                <a class="button text_center  height_auto button_black block text_white" href='https://www.google.ru/'
+                    target='_blank'>Learn more
+                    <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
                 </a>
 
             </div>
@@ -260,7 +259,7 @@
 
 
 
-        <div class="black">
+        <div class="black_div text_center text_white">
             <div class="line_yellow"></div>
             <h1 class="text font_three text_h1">You're in good hands</h1>
             <p class="text text_p opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -268,39 +267,38 @@
                 soluta consequuntur libero. Saepe nisi commodi unde molestias.
                 Distinctio ipsum voluptatem eligendi eaque!</p>
 
-            <a class="text_black" href="google.com">
-                <div class="button button_orange button_center"> Learn more
-                    <i class="fas fa-arrow-right"></i>
-                </div>
+            <a class="bold text_black block button button_orange button_center" href='https://www.google.ru/'
+                target='_blank'>Learn more
+                <i class="fas fa-arrow-right inline_block"></i>
             </a>
         </div>
 
-        <div class="review">
+        <div class="review back_white">
             <div class="line_gradient line_review"></div>
 
-            <div class="grid">
-                <div class="properties_grid properties_review">
-                    <h2 class="top_grid text_black review_h2">
+            <div class="grid grid_three">
+                <div class="grid_three back_white properties_review">
+                    <h2 class="top_grid text_center bold text_black review_h2">
                         "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Velit dolor in repellat aliquam distinctio deleniti quae aut earum numquam."
                     </h2>
-                    <div class="client_block client_block_white" id="b">
+                    <div class="client_block">
                         <img src="photo/guy.png" alt="">
-                        <p> Lara Madrigal <br>
+                        <p class="padding_twenty inline_block"> Lara Madrigal <br>
                             <span class="opacity"> Client </span>
                         </p>
                     </div>
 
-                    <div class="client_block client_block_black" id="b">
+                    <div class="client_block client_block_black text_white">
                         <img src="photo/guy.png" alt="">
-                        <p> Lara Madrigal <br>
+                        <p class="padding_twenty inline_block"> Lara Madrigal <br>
                             <span class="opacity"> Client </span>
                         </p>
                     </div>
 
-                    <div class="client_block client_block_white" id="b">
+                    <div class="client_block">
                         <img src="photo/guy.png" alt="">
-                        <p> Lara Madrigal <br>
+                        <p class="padding_twenty inline_block"> Lara Madrigal <br>
                             <span class="opacity"> Client </span>
                         </p>
                     </div>
@@ -311,18 +309,17 @@
 
     </main>
 
-    <footer>
+    <footer class="text_white">
         <div class="begin">
-            <h1 class="font_three">Make your dreams a <span>reality</span></h1>
-            <a class="text_black" href="google.com">
-                <div class="button button_orange button_right"> Work with us
-                    <i class="fas fa-arrow-right"></i>
-                </div>
+            <h1 class="font_three inline_block">Make your dreams a <span>reality</span></h1>
+            <a class="button text_center  height_auto button_orange button_right block bold text_black"
+                href='https://www.google.ru/' target='_blank'>Work with us
+                <i class="fas fa-arrow-right inline_block"></i>
             </a>
         </div>
 
         <div class="main">
-            <div class="grid contact">
+            <div class="grid grid_three contact">
                 <img class="log" src="photo/logo.png" alt="">
                 <i class="fab fa-facebook fa-lg"></i>
                 <i class="fab fa-twitter fa-lg"></i>
@@ -331,26 +328,26 @@
 
             <div class="headingfooter">
                 <h3>Column Heading</h3>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
             </div>
 
             <div class="headingfooter">
                 <h3>Column Heading</h3>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
             </div>
 
             <div class="headingfooter">
                 <h3>Column Heading</h3>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
             </div>
 
         </div>

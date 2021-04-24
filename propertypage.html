@@ -3,52 +3,50 @@
 
 <head>
     <title>Property Page</title>
-    <link rel="stylesheet" href="styleProperty.css">
+    <link rel="stylesheet" href="css/styleProperty.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9262b09bd4.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    
+<body class="height_auto">
 
-    <header>
-        <div>
+
+    <header class="text_white">
             <img class="logo" src="photo/logo.png" alt="">
             <menu>
-                <ul class="menuul">
-                    <li><a class='lia' href="google.com">NavLink</a></li>
-                    <li><a class='lia' href="google.com">NavLink</a></li>
-                    <li><a class='lia' href="google.com">NavLink</a></li>
-                    <li><a class='lia' href="google.com">NavLink</a></li>
-                    <a class="text_black" href="google.com">
-                        <li class="button button_orange">Work with us
-                            <i class="fas fa-arrow-right"></i>
-                        </li>
+                <nav>
+                    <a class='text_white' href='https://www.google.ru/' target='_blank'>NavLink</a>
+                    <a class='text_white' href='https://www.google.ru/' target='_blank'>NavLink</a>
+                    <a class='text_white' href='https://www.google.ru/' target='_blank'>NavLink</a>
+                    <a class='text_white' href='https://www.google.ru/' target='_blank'>NavLink</a>
+                    <a class="bold text_black button text_center height_auto button_orange" href="propertypage.html"
+                        target='_blank'>Work with us
+                        <i class="fas fa-arrow-right inline_block"></i>
                     </a>
-                </ul>
+                </nav>
             </menu>
 
-            <div class="header_div">
-                <div class="header_block header_name">
+            <div class="header_div inline_block">
+                <div class="header_block inline_block header_name">
                     <h1>Modern House</h1>
                     <p class="opacity">3002 Foster Ave, Brooklyn, NY 11210, USA</p>
                 </div>
 
-                <div class="header_block header_price">
+                <div class="header_block inline_block header_price">
                     <h1>$450,000</h1>
                     <p class="opacity">$2,800/sq ft</p>
                 </div>
             </div>
-
-        </div>
     </header>
 
 
     <main>
 
-        <div class="choice">
+        <div class="choice inline_block">
             <img src="photo/house7.png" alt="">
             <img src="photo/small1.png" alt="">
             <img src="photo/small2.png" alt="">
@@ -59,55 +57,66 @@
             <img src="photo/small7.png" alt="">
         </div>
 
-        <div class="resume all_borders_round">
-            <div class="account">
+        <div class="resume back_white inline_block all_borders_round">
+            <div class="account padding_twenty">
                 <img src="photo/avatar.png" alt="">
-                <div class="name">
+                <div class="name inline_block">
                     <p> Kayley Hall <br>
                         <a href=""> <span> View profile </span></a>
                     </p>
                 </div>
             </div>
 
-            <div class="input">Name <input type="text"> </div>
-            <div class="input">Phone <input type="text"> </div>
-            <div class="input email">Email <input type="text"> </div>
-            <textarea class="input"> Hello, I'm interested in </textarea>
+            <div class="input padding_twenty">Name
+                <input type="text" name="user_name" value="">
+            </div>
 
-            <a class="text_white" href="google.com">
-                <div class="button button_black button_center"> Learn more
-                    <i class="fas fa-arrow-right" id="fa-arrow-right"></i>
-                </div>
+            <div class="input padding_twenty">Phone
+                <input type="text" name="user_phone" value="">
+            </div>
+
+            <div class="input padding_twenty">Email
+                <input type="text" name="user_mail" value="">
+            </div>
+
+            <div class="input padding_twenty">
+                <input type="text" name="user_mail" value="Hello, I'm interested in">
+            </div>
+
+
+            <a class="button button_full text_center height_auto button_black button_center block text_white" href='https://www.google.ru/'
+                target='_blank'>Learn more
+                <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
             </a>
         </div>
 
-        <div class="properties all_borders_round">
-            <h2 class="details_h2">Details</h2>
-            <div class="details_div">
-                <i class="fas fa-bed"></i>
-                <p>4</p>
+        <div class="properties back_white all_borders_round">
+            <h2 class="details_h2 inline_block">Details</h2>
+            <div class="details_div border_right ">
+                <i class="fas fa-bed inline_block"></i>
+                <p class="inline_block">4</p>
+            </div>
+            <div class="details_div border_right text_center">
+                <i class="fas fa-sink inline_block"></i>
+                <p class="inline_block">2</p>
+            </div>
+            <div class="details_div border_right text_center">
+                <i class="far fa-sun inline_block"></i>
+                <p class="inline_block">2</p>
+            </div>
+            <div class="details_div border_right text_center">
+                <i class="fas fa-warehouse inline_block"></i>
+                <p class="inline_block">1</p>
             </div>
             <div class="details_div">
-                <i class="fas fa-sink"></i>
-                <p>2</p>
-            </div>
-            <div class="details_div">
-                <i class="far fa-sun"></i>
-                <p>2</p>
-            </div>
-            <div class="details_div">
-                <i class="fas fa-warehouse"></i>
-                <p>1</p>
-            </div>
-            <div class="details_div border_none">
-                <i class="far fa-calendar"></i>
-                <p>2007</p>
+                <i class="far fa-calendar inline_block"></i>
+                <p class="inline_block">2007</p>
             </div>
         </div>
 
-        <div class="description all_borders_round">
+        <div class="description back_white all_borders_round">
             <h2 class="all_h2">Description</h2>
-            <p class="descp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p class="descp opacity line_height">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Neque corporis, cupiditate quaerat quam impedit quidem minima quod adipisci perspiciatis repellat,
                 imilique, nulla tempora dignissimos doloremque consectetur vero ratione non natus?
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -122,9 +131,9 @@
             </p>
         </div>
 
-        <div class="features all_borders_round">
+        <div class="features back_white all_borders_round">
             <h2 class="all_h2">Features</h2>
-            <div class="fetgrid grid_three">
+            <div class="fetgrid text_center grid_three">
                 <div class="aircondition">
                     <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
                     <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
@@ -153,70 +162,70 @@
 
 
         <div class="line"></div>
-        <h1 class="sim">Similar listings</h1>
+        <h1 class="font_three">Similar listings</h1>
 
 
         <div class="grid">
 
-            <div class="each ">
+            <div class="each inline_block">
                 <img src="photo/house1.png" alt="">
-                <div class="properties_dropdown all_borders_round grid_three">
+                <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
-                        <i class="fas fa-bed"></i>
-                        <p>4</p>
+                    <div class="padding_twenty border_right">
+                        <i class="fas fa-bed inline_block"></i>
+                        <p class="inline_block">4</p>
                     </div>
-                    <div class="b">
-                        <i class="fas fa-sink"></i>
-                        <p>2</p>
+                    <div class="padding_twenty border_right">
+                        <i class="fas fa-sink inline_block"></i>
+                        <p class="inline_block">2</p>
                     </div>
-                    <div class="b border_none">
-                        <i class="far fa-sun"></i>
-                        <p>2</p>
+                    <div class="padding_twenty">
+                        <i class="far fa-sun inline_block"></i>
+                        <p class="inline_block">2</p>
                     </div>
                 </div>
             </div>
 
-            <div class="each">
+            <div class="each inline_block">
                 <img src="photo/house2.png" alt="">
-                <div class="properties_dropdown all_borders_round grid_three">
+                <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
-                        <i class="fas fa-bed"></i>
-                        <p>4</p>
+                    <div class="padding_twenty border_right">
+                        <i class="fas fa-bed inline_block"></i>
+                        <p class="inline_block">4</p>
                     </div>
-                    <div class="b">
-                        <i class="fas fa-sink"></i>
-                        <p>2</p>
+                    <div class="padding_twenty border_right">
+                        <i class="fas fa-sink inline_block"></i>
+                        <p class="inline_block">2</p>
                     </div>
-                    <div class="b border_none">
-                        <i class="far fa-sun"></i>
-                        <p>2</p>
+                    <div class="padding_twenty">
+                        <i class="far fa-sun inline_block"></i>
+                        <p class="inline_block">2</p>
                     </div>
                 </div>
             </div>
 
-            <div class="each ">
+            <div class="each inline_block">
                 <img src="photo/house3.png" alt="">
-                <div class="properties_dropdown all_borders_round grid_three">
+                <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
                     <h2 class="top_grid">
-                        <p> Malto house</p>
+                        <p> Malto House</p>
                     </h2>
-                    <div class="b">
-                        <i class="fas fa-bed"></i>
-                        <p>4</p>
+                    <div class="padding_twenty border_right">
+                        <i class="fas fa-bed inline_block"></i>
+                        <p class="inline_block">4</p>
                     </div>
-                    <div class="b">
-                        <i class="fas fa-sink"></i>
-                        <p>2</p>
+                    <div class="padding_twenty border_right">
+                        <i class="fas fa-sink inline_block"></i>
+                        <p class="inline_block">2</p>
                     </div>
-                    <div class="b border_none">
-                        <i class="far fa-sun"></i>
-                        <p>2</p>
+                    <div class="padding_twenty">
+                        <i class="far fa-sun inline_block"></i>
+                        <p class="inline_block">2</p>
                     </div>
                 </div>
             </div>
@@ -224,18 +233,17 @@
 
     </main>
 
-    <footer>
+    <footer class="text_white">
         <div class="begin">
-            <h1 class="font_three">Make your dreams a <span>reality</span></h1>
-            <a class="text_black" href="google.com">
-                <div class="button button_orange button_right"> Work with us
-                    <i class="fas fa-arrow-right"></i>
-                </div>
+            <h1 class="font_three inline_block">Make your dreams a <span>reality</span></h1>
+            <a class="button text_center  height_auto button_orange button_right block bold text_black"
+                href='https://www.google.ru/' target='_blank'>Work with us
+                <i class="fas fa-arrow-right inline_block"></i>
             </a>
         </div>
 
         <div class="main">
-            <div class="grid contact">
+            <div class="grid_footer grid_three contact">
                 <img class="log" src="photo/logo.png" alt="">
                 <i class="fab fa-facebook fa-lg"></i>
                 <i class="fab fa-twitter fa-lg"></i>
@@ -244,26 +252,26 @@
 
             <div class="headingfooter">
                 <h3>Column Heading</h3>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
             </div>
 
             <div class="headingfooter">
                 <h3>Column Heading</h3>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
             </div>
 
             <div class="headingfooter">
                 <h3>Column Heading</h3>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
-                <a href="" class="opacity">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
+                <a href="" class="opacity text_white">Link goes here</a>
             </div>
 
         </div>
