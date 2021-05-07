@@ -1,29 +1,28 @@
 /* Header */
 
-header{
+.top_background{
     height: 110vh;
+    width: 100%;
     background-size: cover;
     background-image:linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%), url('../photo/backhouse.png');
 }
 
 .header_text{
     display: block;
-    left: 15%; 
 }
 
 .header_h1{
-    position: absolute;
+    margin-top: 100px ;
     font-size: 5em;
-    top: 35vh; 
 }
 
 .header_p{
     position: relative;
     width: 500px;
-    top: 70vh;
     font-size: 1.5em;
     font-weight:lighter;
     margin-bottom: 20px;
+    margin-top:20px;
 }
 
 
@@ -34,7 +33,7 @@ header{
     justify-items: flex-start;
     position: relative;
     width:66vw;
-    top: 72vh;
+    top: 20vh;
     margin:auto;
     padding: 30px;
 }
@@ -44,8 +43,7 @@ header{
 .textgood{
     position: relative;    
     display: inline-block;
-    width: 30vw;
-    bottom: 300px;
+    bottom: 200px;
 }
 
 .left{
@@ -65,40 +63,41 @@ header{
     height: 100vh;
 }
 
-.goodhands_reverse{
-    padding-left: 15%;
+.goodhands_reverse .textgood{
+    top: 150px;
 }
 
 .team{
     display: inline-block;
     margin-top: 100px;
-    width: 50vw;
+    width: 700px;
 }
 
 .team_reverse{
     position: relative;
-    bottom:130px;
+    bottom:600px;
     left: 0px;
     transform: scale(-1, 1);
-
-}
-
-.nextplace{
-    padding: 15%;
+    display: inline-block;
+    float: right;
 }
 
 .nextplace h1{
     margin-bottom: 50px;
 }
 
+.nextplace .line_gradient{
+    margin-top: 150px;
+}
 
 
 /* Dropdown menu  */
 .menudrop{
-    position: absolute;
-    display: inline-block;
+    position: relative;
+    display: flex;
     border-radius: 20px;
     width: auto;
+    margin-bottom: 80px;
 }
 
 .menudrop li, .dropbtn {
@@ -109,7 +108,7 @@ header{
 .dropdown{
     position: relative;
     width: 200px;
-    padding: 50px 30px 50px 30px;
+    padding: 50px 30px;
 }
 
 .dropdown:hover {
@@ -118,6 +117,7 @@ header{
 }
 
 .dropdown-content {
+    z-index: 2;
     position: absolute;
     left: 0%;
     right: 0;
@@ -143,25 +143,27 @@ header{
 }
 
 #border1:hover{
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 0px 0px 0px;
 }
 
 #border2:hover{
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 20px 0px 0px;
 } 
+
 
 /* Collections of houses */
 
 .grid{
     position: relative;
     width: 70vw;
-    left: 15%;
+}
+
+.grid_photo{
+    position: relative;
 }
 
 .properties_dropdown{
     position: relative;
-    width: 90%;
-    top: 0px;
     margin-bottom: 30px;
     border-radius: 0px 0px 20px 20px;
 }
@@ -174,16 +176,13 @@ header{
     padding-left:20px;
 } 
 
-
 .bottom_line{
     margin-bottom: 200px;
 }
 
-.properties_dropdown .b{
-    border-right:2px solid #dddbdbe7; 
+.house_collect{
+    max-width: 340px;
 }
-
-
 
 /* Div with black background */
 
@@ -193,25 +192,20 @@ header{
     background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
 }
 
-
-.line_gradient{
-    width: 200px;
-    height: 5px;
-    margin-bottom: 40px;
-    background-image: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+.line_find_your_place{
+    position: relative;
+    margin-top: 100px;
 }
 
 .line_yellow{
-    position: absolute;
-    top: 30%;
-    left: 50%;
+    position: relative;
+    top: 150px;
+    margin: auto;
     width: 300px;
     height: 10px;
     background: linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
     border-radius: 2px;
-    transform: translate(-50%, -50%);
 }
-
 
 .text{
     position: absolute;
@@ -220,13 +214,14 @@ header{
 }
 
 .text_h1{
-    top: 40%;
+    margin: auto;
+    margin-top: 200px; 
 }
 
 .text_p{
     font-size: 1.5em;
     width: 450px;
-    top: 60%;
+    margin-top: 350px;
 }
 
 
@@ -239,7 +234,6 @@ header{
 }
 
 .client_block {
-    margin-left: 30px;
     margin-right: 30px;
     padding: 10px;
     margin: 10px;
@@ -254,7 +248,6 @@ header{
     background-color: black;
 }
 
-
 .properties_review .top_grid{
     width: 350px;
     margin: auto;
@@ -262,11 +255,9 @@ header{
 }
 
 .properties_review{
-    position: absolute;
-    top: 450px;
+    position: relative;
+    margin-top: 200px;
     width: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .review_h2{
@@ -278,9 +269,8 @@ header{
 }
 
 .line_review{
-    position: absolute;
-    top: 30%;
-    left: 50%;
+    position: relative;
+    top: 150px;
+    margin: auto;
     width: 300px;
-    transform: translate(-50%, -50%);
 }
