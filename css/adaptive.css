@@ -1,0 +1,583 @@
+@media (max-width: 1224px){
+    .container{
+        max-width: 924px;
+    }
+
+    /* Home page */
+
+    .team{
+        width: 550px;
+        margin-top: 50px;
+    }
+
+    .team_reverse{
+        bottom: 500px;
+    }
+
+    .textgood{
+        bottom: 150px;
+    }
+
+    .textgood p{
+        font-size: 1.5em;
+        width: 430px;
+    }
+
+    .textgood h1{
+        font-size: 2em;
+    }
+
+    .dropdown{
+        width: 150px;
+    }
+
+    .houses .each{
+        width: 300px;
+    }
+
+    .goodhands_reverse{
+        margin-top: 300px;
+    }
+
+    .black_div .button{
+        margin-left: 300px;
+    }
+
+    .review{
+        height: 80vh;
+    }
+
+    .client_block{
+        width: 300px;
+    }
+    .client_block p{
+        width: 150px;
+    }
+
+    .client_blocks{
+        padding-top:30px;
+    }
+
+    /* Footer */
+    
+    footer h1{
+        font-size: 30px !important;
+    }
+    
+    .begin {
+        height: 80px;
+        padding-bottom: 40px;
+    }
+
+    footer .button{
+        width: 150px;
+        font-size: 15px;
+    }
+    
+    .main{
+        column-gap: 100px;
+        margin-top: 60px;   
+    }
+    
+    .contact{
+        width: 120px;  
+    }
+
+
+
+    /* Second page */
+
+    .house_none{
+        width: 550px;
+    }
+    .choice{
+        width: 100%;
+        margin-right: 90px;
+    }
+
+    .smalls{
+        width: 100%;
+    }
+    .smalls *{
+        width: 60px;
+    }
+
+    .small_photo{
+        margin: 15px 15px 0 0;
+    }
+
+    .resume{
+        width: 280px;
+    }
+
+    .container_small{
+        width: 550px;
+    }
+
+    .properties,.description,.features{
+        width: 100%
+    }
+
+    .details_div p{
+        padding:13px;
+    }
+
+    .details_div{
+        height: 55px;
+    }
+
+    .description *,.features *{
+        padding: 20px;
+    }
+
+    .aircondition{
+        width: 100px;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .aircondition p{
+        padding: 10px;
+    }
+
+    .aircondition i{
+        padding: 5px;
+    }
+
+    .features .grid_three{
+        grid-gap: 20px;
+    }  
+}
+
+
+@media (max-width: 1024px){
+    .container{
+        max-width: 770px;
+    }
+
+    /* Home page */
+
+    .button{
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .header_h1{
+        font-size: 4em;
+        display: table-caption;
+    }
+
+    .header_p{
+        font-size: 1em;
+    }
+
+    .goodhands{
+        height: 400px;
+    }
+
+    .goodhands_reverse{
+        margin-top: 100px;
+    }
+
+    .team{
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    .team_reverse{
+        bottom: 300px;
+    }
+
+    .goodhands_reverse .textgood{
+        top: 60px;
+    }
+
+    .textgood{
+        bottom: 100px;
+    }
+
+    .textgood p{
+        font-size: 1em;
+        width: 350px;
+    }
+
+    .textgood h1{
+        font-size: 1.5em;
+    }
+
+    .textgood .button{
+        font-size: 14px;
+        width: 120px;
+        padding: 10px;
+    }
+
+    .nextplace h1{
+        font-size: 35px;
+    }
+
+    .dropdown{
+        padding: 40px 20px;
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .houses .each{
+        width: 250px;
+    }
+
+    .black_div{
+        height: 50vh;
+    }
+
+    .goodhands_reverse .textgood{
+        margin-left: 0;
+    }
+
+    .text_p{
+        font-size: 1em;
+        width: 350px;
+        margin-top: 200px;
+        width: 250px;
+    }
+
+    .text_h1{
+        font-size: 1.5em;
+        margin-top: 100px;
+    }
+
+    .line_yellow{
+        height: 3px;
+        top: 50px;
+        width: 200px;
+    }
+
+    .black_div .button{
+        font-size: 11px;
+        width: 110px;
+        margin-top: 300px;
+        padding:6px;
+        margin-left: 325px;
+    }
+
+    .black_div .button i{
+        width: 5px;
+    }
+
+    .client_block{
+        padding: 10px;
+        width: 250px;
+        margin: 10px;
+    }
+
+    .client_block img{
+        width: 40px;
+    }
+
+    .client_block p{
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .review_p{
+        width: 250px;
+        font-size: 20px;
+        margin: 20px auto;
+    }
+
+    .line_review{
+        width: 200px;
+    }
+
+     
+    footer h1{
+        font-size: 25px !important;
+    }
+    
+    .begin {
+        height: 80px;
+        padding-bottom: 30px;
+    }
+
+    footer .button{
+        width: 150px;
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    footer .button i{
+        width: 8px;
+    }
+    
+    .main{
+        column-gap: 80px;
+        margin-top: 50px;   
+    }
+    
+    .contact{
+        width: 120px;  
+    }
+
+
+
+    /* Second page */
+
+    
+    .header_block h1{
+        font-size: 28px;
+    }
+
+    .header_block p{
+        font-size: 15px;
+    }
+
+    .house_none{
+        display: none;
+    }
+
+    .container_small_adapt{
+        width: 300px;
+    }
+
+    .resume{
+        margin-left: 50px;
+    }
+    .button_full{
+        width: 100%;
+    }
+
+    .smalls{
+        width: 300px;
+        display: inline-block;
+    }
+
+    .smalls img{
+        width: 130px;
+    }
+
+
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 560px;
+    }
+
+    /* Home page */
+
+    .header_inner{
+        flex-wrap: wrap;
+        height: auto;
+        padding-top: 25px;
+    }
+
+    header .button{
+        width: 130px;
+        font-size: 13px;
+    }
+
+    .logo{
+        width: 120px;
+    }
+
+    .menu{
+        order:1;
+        width: 100%;
+    }
+
+    .menu_list{
+        margin: 20px auto;
+    }
+
+    .button i{
+        width: 8px;
+    }
+
+    .seeall{
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .team{
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .goodhands_reverse .textgood{
+        top: 40px;
+    } 
+
+    .goodhands{
+        height: 350px;
+    }
+
+    .goodhands_reverse{
+        height: 300px;
+    }
+
+    .goodhands .button{
+        margin-top: 20px;
+    }
+
+    .textgood{
+        bottom: 70px;
+    }
+
+    .textgood p{
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .textgood h1{
+        font-size: 20px;
+    }
+
+    .textgood .button{
+        font-size: 12px;
+        width: 120px;
+        padding: 8px;
+    }
+
+    .line_gradient{
+        height: 3px;
+        margin-bottom: 20px;
+    }
+
+    .nextplace h1{
+        font-size: 25px;
+    }
+
+    .dropdown{
+        width: 110px;
+        padding:30px 10px;
+        font-size: 10px;
+    }
+
+    .houses .grid_three{
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .houses .each{
+        width: 300px;
+    }
+
+    
+    .black_div{
+        height: 40vh;
+    }
+
+    .text_p{
+        font-size: 15px;
+        width: 350px;
+        margin-top: 160px;
+        width: 250px;
+    }
+
+    .text_h1{
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    .line_yellow{
+        height: 3px;
+        top: 30px;
+        width: 200px;
+    }
+
+    .black_div .button{
+        margin: 250px 0 0 220px ;
+        width: 100px;
+    }
+
+    .top_review{
+        display: none;
+    }
+
+    .client_blocks{
+        flex-direction: column;
+    }
+
+    .client_block{
+        position: relative;
+        width: 300px;
+        margin: 30px auto;
+    }
+
+    .review{
+        height: 65vh;
+    }
+
+    footer{
+        padding-top: 70px !important;
+    }
+
+    footer h1{
+        font-size: 25px !important;
+    }
+    
+    .begin {
+        height: 80px;
+        padding-bottom: 30px;
+    }
+
+    .begin a{
+        margin-left: 200px;
+    }
+    
+    .contact{
+        width: 100px;  
+        margin-right: 20px;
+    }
+
+    .headingfooter{
+        width: 150px;
+    }
+
+    .none{
+        display: none;
+    }
+
+    /* Second page */
+    
+    .header_block h1{
+        font-size: 22px;
+    }
+
+    .header_block p{
+        font-size: 13px;
+    }
+
+    .container_small_adapt{
+        width: 300px;
+    }
+
+    .resume{
+        float: right;
+        width: 250px;
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .account{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .resume .input{
+        padding: 10px;
+    }
+
+    .smalls{
+        width: 250px;
+        display: inline-block;
+    }
+
+    .smalls img{
+        width: 90px;
+    }
+
+    .container_small_adapt{
+        width: 200px;
+    }
+
+}

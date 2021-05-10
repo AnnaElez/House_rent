@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0 ,maximum-scale = 1.0, user-scalable = 0">
     <title>Home</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
@@ -15,54 +16,61 @@
 </head>
 
 <body>
-
     <section class="top_background text_white">
-        <section class="container">
-            <header>
-
+        <header>
+            <section class="container">
                 <div class="header_inner">
 
-                    <a class="a_logo" href="index.html" target='_blank'>
-                        <img class="logo" src="photo/logo.png" alt="logo">
+                    <a class="logo" href="index.html" target='_blank'>
+                        <img src="photo/logo.png" alt="logo">
                     </a>
-
+                    <div class="header_burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <nav class="menu">
                         <ul class="menu_list">
                             <li class="menu_list-item">
-                                <a class='text_white' href='' target='_blank'>NavLink</a>
-                            </li>
-                            <li class="menu_list-item center_li">
-                                <a class='text_white' href='' target='_blank'>NavLink</a>
+                                <a class='text_white' href='#' target='_blank'>NavLink</a>
                             </li>
                             <li class="menu_list-item">
-                                <a class='text_white' href='' target='_blank'>NavLink</a>
+                                <a class='text_white' href='#' target='_blank'>NavLink</a>
                             </li>
                             <li class="menu_list-item">
-                                <a class='text_white' href='' target='_blank'>NavLink</a>
+                                <a class='text_white' href='#' target='_blank'>NavLink</a>
+                            </li>
+                            <li class="menu_list-item">
+                                <a class='text_white' href='#' target='_blank'>NavLink</a>
                             </li>
                         </ul>
                     </nav>
 
-                    <button class="btn">
-                        <a class="button text_center button_margin_top height_auto button_orange button_right block bold text_black"
-                            href="propertypage.html" target='_blank'>Work with us
-                            <i class="fas fa-arrow-right inline_block"></i>
-                        </a>
-                    </button>
+                    <a class="button text_center button_margin_top height_auto button_orange button_right block bold text_black"
+                        href="propertypage.html" target='_blank'>Work with us
+                        <i class="fas fa-arrow-right inline_block"></i>
+                    </a>
+
+
 
                 </div>
 
+            </section>
+        </header>
 
-            </header>
-
+        <section class="container">
             <div>
-                <h1 class="header_text header_h1">Beautiful <br>homes made<br> for you</h1>
-                <p class="header_text header_p opacity line_height">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Sit odio officiis labore libero, delectus voluptate. </p>
+                <div class="header_text_div">
+                    <h1 class="header_text header_h1">Beautiful <br>homes made<br> for you</h1>
+                    <p class="header_text header_p opacity line_height">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit.
+                        Sit odio officiis labore libero, delectus voluptate. </p>
+                </div>
 
                 <div class="seeall height_auto back_white">
-                    <a class="bold text_black" href='https://www.google.ru/' target='_blank'>
+                    <a class="bold text_black" href='#' target='_blank'>
                         See all listings
                         <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
                     </a>
@@ -76,25 +84,21 @@
     <main>
         <div class="goodhands back_white">
             <img class="team" src="photo/team.png" alt="">
-            <section class="container inline_block">
-                <div class="textgood left">
-                    <div class="line_gradient"></div>
-                    <h1 class="font_three">You're in good hands</h1>
-                    <p class="opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptate dolores culpa itaque recusandae eligendi odio quaerat.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Fuga incidunt voluptates, aperiam dignissimos alias quis aliquid!</p>
-                    <div>
-                        <button class="btn">
-                            <a class="block button text_center button_margin_top button_black text_white"
-                                href='https://www.google.ru/' target='_blank'>Learn
-                                more
-                                <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
-                            </a>
-                        </button>
-                    </div>
+            <div class="textgood left inline_block">
+                <div class="line_gradient"></div>
+                <h1 class="font_three">You're in good hands</h1>
+                <p class="opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate dolores culpa itaque recusandae eligendi odio quaerat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga incidunt voluptates, aperiam dignissimos alias quis aliquid!</p>
+                <div>
+                    <a class="block button text_center button_margin_top button_black text_white" href='#'
+                        target='_blank'>Learn
+                        more
+                        <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
+                    </a>
                 </div>
-            </section>
+            </div>
         </div>
 
 
@@ -140,139 +144,141 @@
                 </div>
             </div>
 
+            <div class="houses">
+                <div class="grid_three">
+                    <div class="each inline_block">
 
-            <div class="grid grid_three">
-                <div class="each inline_block">
+                        <img src="photo/house1.png" alt="">
 
-                    <img src="photo/house1.png" alt="">
-
-                    <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed"></i>
-                            <p>4</p>
+                        <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed"></i>
+                                <p>4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink"></i>
+                                <p>2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun"></i>
+                                <p>2</p>
+                            </div>
                         </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink"></i>
-                            <p>2</p>
+
+                    </div>
+
+                    <div class="each inline_block">
+                        <img src="photo/house2.png" alt="">
+                        <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed"></i>
+                                <p>4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink"></i>
+                                <p>2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun"></i>
+                                <p>2</p>
+                            </div>
                         </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun"></i>
-                            <p>2</p>
+                    </div>
+
+                    <div class="each inline_block">
+                        <img src="photo/house3.png" alt="">
+                        <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed"></i>
+                                <p>4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink"></i>
+                                <p>2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun"></i>
+                                <p>2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="each inline_block">
+                        <img src="photo/house4.png" alt="">
+                        <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed"></i>
+                                <p>4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink"></i>
+                                <p>2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun"></i>
+                                <p>2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="each inline_block">
+                        <img src="photo/house5.png" alt="">
+                        <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed"></i>
+                                <p>4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink"></i>
+                                <p>2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun"></i>
+                                <p>2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="each inline_block">
+                        <img src="photo/house6.png" alt="">
+                        <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed"></i>
+                                <p>4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink"></i>
+                                <p>2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun"></i>
+                                <p>2</p>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-
-                <div class="each inline_block">
-                    <img src="photo/house2.png" alt="">
-                    <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed"></i>
-                            <p>4</p>
-                        </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink"></i>
-                            <p>2</p>
-                        </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun"></i>
-                            <p>2</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="each inline_block">
-                    <img src="photo/house3.png" alt="">
-                    <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed"></i>
-                            <p>4</p>
-                        </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink"></i>
-                            <p>2</p>
-                        </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun"></i>
-                            <p>2</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="each inline_block bottom_line">
-                    <img src="photo/house4.png" alt="">
-                    <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed"></i>
-                            <p>4</p>
-                        </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink"></i>
-                            <p>2</p>
-                        </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun"></i>
-                            <p>2</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="each inline_block bottom_line">
-                    <img src="photo/house5.png" alt="">
-                    <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed"></i>
-                            <p>4</p>
-                        </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink"></i>
-                            <p>2</p>
-                        </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun"></i>
-                            <p>2</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="each inline_block bottom_line">
-                    <img src="photo/house6.png" alt="">
-                    <div class="house_collect grid_three back_white properties_dropdown all_bottom_borders_round">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed"></i>
-                            <p>4</p>
-                        </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink"></i>
-                            <p>2</p>
-                        </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun"></i>
-                            <p>2</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </section>
+
 
 
         <div class="goodhands back_white goodhands_reverse">
@@ -284,19 +290,15 @@
                         Voluptate dolores culpa itaque recusandae eligendi odio quaerat.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Fuga incidunt voluptates, aperiam dignissimos alias quis aliquid!</p>
-                    <button class="btn">
-                        <a
-                            class="button text_center button_margin_top height_auto button_black block text_white"
-                            href='https://www.google.ru/' target='_blank'>Learn more
-                            <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
-                        </a>
-                    </button>
+                    <a class="button text_center button_margin_top height_auto button_black block text_white" href='#'
+                        target='_blank'>Learn more
+                        <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
+                    </a>
 
                 </div>
             </section>
             <img class="team team_reverse" src="photo/team.png" alt="">
         </div>
-
 
 
         <div class="black_div text_center text_white">
@@ -308,69 +310,67 @@
                     soluta consequuntur libero. Saepe nisi commodi unde molestias.
                     Distinctio ipsum voluptatem eligendi eaque!</p>
 
-
-                <button class="btn button_center">
-                    <a class="bold text_black block button_margin_top button button_orange "
-                        href='https://www.google.ru/' target='_blank'>Learn more
-                        <i class="fas fa-arrow-right inline_block"></i>
-                    </a>
-                </button>
+                <a class="bold button_center text_black block button_margin_top button button_orange " href='#'
+                    target='_blank'>Learn more
+                    <i class="fas fa-arrow-right inline_block"></i>
+                </a>
             </section>
         </div>
 
 
-
         <div class="review back_white">
             <section class="container">
-                <div class="line_gradient line_review"></div>
 
-                <div class="grid grid_three">
-                    <div class="grid_three back_white properties_review">
-                        <h2 class="top_grid text_center bold text_black review_h2">
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Velit dolor in repellat aliquam distinctio deleniti quae aut earum numquam."
-                        </h2>
-                        <div class="client_block left">
-                            <img src="photo/guy.png" alt="">
-                            <p class="padding_twenty inline_block"> Lara Madrigal <br>
-                                <span class="opacity"> Client </span>
-                            </p>
-                        </div>
+                <div class="top_review">
+                    <div class="line_gradient line_review"></div>
+                    <p class=" text_center bold text_black review_p">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit dolor in repellat aliquam distinctio deleniti quae aut earum numquam."
+                    </p>
+                </div>
 
-                        <div class="client_block client_block_black text_white">
-                            <img src="photo/guy.png" alt="">
-                            <p class="padding_twenty inline_block"> Lara Madrigal <br>
-                                <span class="opacity"> Client </span>
-                            </p>
-                        </div>
+                <div class="client_blocks">
 
-                        <div class="client_block">
-                            <img src="photo/guy.png" alt="">
-                            <p class="padding_twenty inline_block"> Lara Madrigal <br>
-                                <span class="opacity"> Client </span>
-                            </p>
-                        </div>
+                    <div class="client_block">
+                        <img src="photo/guy.png" alt="">
+                        <p class="padding_twenty inline_block"> Lara Madrigal <br>
+                            <span class="opacity"> Client </span>
+                        </p>
+                    </div>
+
+                    <div class="client_block client_block_black text_white">
+                        <img src="photo/guy.png" alt="">
+                        <p class="padding_twenty inline_block"> Lara Madrigal <br>
+                            <span class="opacity"> Client </span>
+                        </p>
+                    </div>
+
+                    <div class="client_block">
+                        <img src="photo/guy.png" alt="">
+                        <p class="padding_twenty inline_block"> Lara Madrigal <br>
+                            <span class="opacity"> Client </span>
+                        </p>
                     </div>
                 </div>
+
             </section>
         </div>
 
     </main>
 
-    <footer class="text_white">
+
+      <footer class="text_white">
         <section class="container">
             <div class="begin">
                 <h1 class="font_three inline_block">Make your dreams a <span>reality</span></h1>
-                <button class="btn">
-                    <a class="button text_center button_margin_top height_auto button_orange button_right block bold text_black"
-                        href='https://www.google.ru/' target='_blank'>Work with us
-                        <i class="fas fa-arrow-right inline_block"></i>
-                    </a>
-                </button>
+                <a class="button text_center button_margin_top height_auto button_orange button_right block bold text_black"
+                    href='#' target='_blank'>Work with us
+                    <i class="fas fa-arrow-right inline_block"></i>
+                </a>
             </div>
 
             <div class="main">
-                <div class="grid grid_three contact">
+                <div class="grid_three contact">
                     <img class="log" src="photo/logo.png" alt="">
                     <i class="fab fa-facebook fa-lg"></i>
                     <i class="fab fa-twitter fa-lg"></i>
@@ -379,26 +379,26 @@
 
                 <div class="headingfooter">
                     <h3>Column Heading</h3>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
                 </div>
 
                 <div class="headingfooter">
                     <h3>Column Heading</h3>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
                 </div>
 
-                <div class="headingfooter">
+                <div class="headingfooter none">
                     <h3>Column Heading</h3>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
+                    <a href='#' class="opacity text_white">Link goes here</a>
                 </div>
 
             </div>

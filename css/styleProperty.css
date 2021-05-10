@@ -9,7 +9,7 @@
     width: 100vw;
     padding: 30px 0px 30px 0px;
     border-top: 1px solid #dddbdb59; 
-}
+} 
 
 .header_block{
     position: relative;
@@ -19,13 +19,9 @@
     font-size: 2em;
 }
 
-.header_name{
-    margin-right: 55%;
-    left: 15%;
-}
-
 .header_price{
-    text-align: right;   
+    float: right;
+    text-align: right; 
 }
 
 /* Main */
@@ -42,6 +38,7 @@ main div{
 .choice{
     width: 710px;
     margin-right: 20px;
+    display: inline-block;
 }
 
 .small_photo{
@@ -52,6 +49,8 @@ main div{
     width: 330px;
     padding: 20px;
     height: 480px;
+    display: inline-block;
+
 }
 
 .account{
@@ -95,11 +94,18 @@ input:focus{
 }
 
 .button_full{
-    width: 300px !important;
-    padding:15px 0 15px 0 !important; 
-    margin: 10px 0 10px 0;    
+    position: relative;
+    width: 100%;
+    padding:15px 0 !important; 
+    margin: 10px 0 0 0;    
 }
 
+
+.container_small{
+    width: 710px;
+    display: inline-block;
+    margin-right: 20px;
+}
 /* House details */
 
 .properties{
@@ -165,7 +171,8 @@ input:focus{
     margin-right: 30px ;
 }
 
-.grid_houses{
+.houses{
+    width: 100%;
     position: relative;
     margin-top: 60px;
     margin-bottom: 100px;
@@ -175,8 +182,8 @@ input:focus{
     margin-bottom: 30px;
 }
 
-.each img{
-    width: 330px;
+.each .grid_three{
+    grid-gap: 0;
 }
 
 .properties_dropdown i{

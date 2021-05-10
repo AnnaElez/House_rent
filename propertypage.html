@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0 ,maximum-scale = 1.0, user-scalable = 0">
     <title>Property Page</title>
-    <link rel="stylesheet" href="css/styleProperty.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styleProperty.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
@@ -21,74 +22,78 @@
             <section class="container">
                 <div class="header_inner">
 
-                    <a class="a_logo" href="index.html" target='_blank'>
-                        <img class="logo" src="photo/logo.png" alt="logo">
+                    <a class="logo" href="index.html" target='_blank'>
+                        <img src="photo/logo.png" alt="logo">
                     </a>
 
                     <nav class="menu">
                         <ul class="menu_list">
                             <li class="menu_list-item">
-                                <a class='text_white' href='' target='_blank'>NavLink</a>
+                                <a class='text_white' href='#' target='_blank'>NavLink</a>
                             </li>
                             <li class="menu_list-item center_li">
-                                <a class='text_white' href='' target='_blank'>NavLink</a>
+                                <a class='text_white' href='#' target='_blank'>NavLink</a>
                             </li>
                             <li class="menu_list-item">
-                                <a class='text_white' href='' target='_blank'>NavLink</a>
+                                <a class='text_white' href='#' target='_blank'>NavLink</a>
                             </li>
                             <li class="menu_list-item">
-                                <a class='text_white' href='' target='_blank'>NavLink</a>
+                                <a class='text_white' href='#' target='_blank'>NavLink</a>
                             </li>
                         </ul>
                     </nav>
 
-                    <button class="btn">
-                        <a class="button text_center button_margin_top height_auto button_orange button_right block bold text_black"
-                            href="propertypage.html" target='_blank'>Work with us
-                            <i class="fas fa-arrow-right inline_block"></i>
-                        </a>
-                    </button>
-
+                    <a class="button text_center button_margin_top height_auto button_orange button_right block bold text_black"
+                        href="propertypage.html" target='_blank'>Work with us
+                        <i class="fas fa-arrow-right inline_block"></i>
+                    </a>
                 </div>
-
 
             </section>
         </header>
 
         <div class="header_div inline_block">
-            <div class="header_block inline_block header_name">
-                <h1>Modern House</h1>
-                <p class="opacity">3002 Foster Ave, Brooklyn, NY 11210, USA</p>
-            </div>
+            <section class="container">
+                <div class="header_block inline_block">
+                    <h1>Modern House</h1>
+                    <p class="opacity">3002 Foster Ave, Brooklyn, NY 11210, USA</p>
+                </div>
 
-            <div class="header_block inline_block header_price">
-                <h1>$450,000</h1>
-                <p class="opacity">$2,800/sq ft</p>
-            </div>
+                <div class="header_block inline_block header_price">
+                    <h1>$450,000</h1>
+                    <p class="opacity">$2,800/sq ft</p>
+
+                </div>
+            </section>
         </div>
     </section>
 
 
     <main>
         <section class="container">
+            <section class="container_small container_small_adapt">
 
-            <div class="choice inline_block">
-                <img src="photo/house7.png" alt="">
-                <img class="small_photo" src="photo/small1.png" alt="">
-                <img class="small_photo" src="photo/small2.png" alt="">
-                <img class="small_photo" src="photo/small3.png" alt="">
-                <img class="small_photo" src="photo/small4.png" alt="">
-                <img class="small_photo" src="photo/small5.png" alt="">
-                <img class="small_photo" src="photo/small6.png" alt="">
-                <img src="photo/small7.png" alt="">
-            </div>
+                <div class="choice inline_block">
+                    <img class='house_none' src="photo/house7.png" alt="">
+                    <div class="smalls">
+                        <img class="small_photo row1" src="photo/small1.png" alt="">
+                        <img class="small_photo row1" src="photo/small2.png" alt="">
+                        <img class="small_photo row1" src="photo/small3.png" alt="">
+                        <img class="small_photo row1" src="photo/small4.png" alt="">
+                        <img class="small_photo row2" src="photo/small5.png" alt="">
+                        <img class="small_photo row2" src="photo/small6.png" alt="">
+                        <img class=" row2" src="photo/small7.png" alt="">
+                    </div>
+
+                </div>
+            </section>
 
             <div class="resume back_white inline_block all_borders_round">
                 <div class="account">
                     <img src="photo/avatar.png" alt="">
                     <div class="name inline_block">
                         <p> Kayley Hall <br>
-                            <a href="" class="name_link"> <span> View profile </span></a>
+                            <a href='#' class="name_link"> <span> View profile </span></a>
                         </p>
                     </div>
                 </div>
@@ -108,170 +113,173 @@
                     <div class="input input_big padding_twenty">
                         <input type="text" name="user_mail" value="Hello, I'm interested in">
                     </div>
-                
-                <button class="btn" type="button">
-                    <a class="block button_full button text_center button_black text_white"
-                        href='https://www.google.ru/' target='_blank'>Learn
+
+                    <a class="block button_full button text_center button_black text_white" href='#'
+                        target='_blank'>Learn
                         more
                         <i class="fas fa-arrow-right inline_block" id="fa-arrow-right"></i>
                     </a>
-                </button>
-            </form>
+                </form>
             </div>
 
-            <div class="properties back_white all_borders_round">
-                <h2 class="details_h2 inline_block">Details</h2>
-                <div class="details_div border_right ">
-                    <i class="fas fa-bed inline_block"></i>
-                    <p class="inline_block">4</p>
-                </div>
-                <div class="details_div border_right text_center">
-                    <i class="fas fa-sink inline_block"></i>
-                    <p class="inline_block">2</p>
-                </div>
-                <div class="details_div border_right text_center">
-                    <i class="far fa-sun inline_block"></i>
-                    <p class="inline_block">2</p>
-                </div>
-                <div class="details_div border_right text_center">
-                    <i class="fas fa-warehouse inline_block"></i>
-                    <p class="inline_block">1</p>
-                </div>
-                <div class="details_div">
-                    <i class="far fa-calendar inline_block"></i>
-                    <p class="inline_block">2007</p>
-                </div>
-            </div>
+            <section class="container_small">
 
-            <div class="description back_white all_borders_round">
-                <h2 class="all_h2">Description</h2>
-                <p class="descp opacity line_height">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque corporis, cupiditate quaerat quam impedit quidem minima quod adipisci perspiciatis repellat,
-                    imilique, nulla tempora dignissimos doloremque consectetur vero ratione non natus?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque corporis, cupiditate quaerat quam impedit quidem minima quod adipisci perspiciatis repellat,
-                    imilique, nulla tempora dignissimos doloremque consectetur vero ratione non natus?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    <br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque corporis, cupiditate quaerat quam impedit quidem minima quod adipisci perspiciatis repellat,
-                    imilique, nulla tempora dignissimos doloremque consectetur vero ratione non natus?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-            </div>
 
-            <div class="features back_white all_borders_round">
-                <h2 class="all_h2">Features</h2>
-                <div class="fetgrid text_center grid_three">
-                    <div class="aircondition">
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                <div class="properties back_white all_borders_round">
+                    <h2 class="details_h2 inline_block">Details</h2>
+                    <div class="details_div border_right ">
+                        <i class="fas fa-bed inline_block"></i>
+                        <p class="inline_block">4</p>
                     </div>
-
-                    <div class="aircondition">
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                    <div class="details_div border_right text_center">
+                        <i class="fas fa-sink inline_block"></i>
+                        <p class="inline_block">2</p>
                     </div>
-
-                    <div class="aircondition">
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-                        <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                    <div class="details_div border_right text_center">
+                        <i class="far fa-sun inline_block"></i>
+                        <p class="inline_block">2</p>
+                    </div>
+                    <div class="details_div border_right text_center">
+                        <i class="fas fa-warehouse inline_block"></i>
+                        <p class="inline_block">1</p>
+                    </div>
+                    <div class="details_div">
+                        <i class="far fa-calendar inline_block"></i>
+                        <p class="inline_block">2007</p>
                     </div>
                 </div>
-            </div>
 
+                <div class="description back_white all_borders_round">
+                    <h2 class="all_h2">Description</h2>
+                    <p class="descp opacity line_height">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque corporis, cupiditate quaerat quam impedit quidem minima quod adipisci perspiciatis
+                        repellat,
+                        imilique, nulla tempora dignissimos doloremque consectetur vero ratione non natus?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque corporis, cupiditate quaerat quam impedit quidem minima quod adipisci perspiciatis
+                        repellat,
+                        imilique, nulla tempora dignissimos doloremque consectetur vero ratione non natus?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque corporis, cupiditate quaerat quam impedit quidem minima quod adipisci perspiciatis
+                        repellat,
+                        imilique, nulla tempora dignissimos doloremque consectetur vero ratione non natus?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
 
-            <div class="line_gradient"></div>
-            <h1 class="font_three">Similar listings</h1>
-
-
-            <div class="grid_houses">
-
-                <div class="each inline_block">
-                    <img src="photo/house1.png" alt="">
-                    <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed inline_block"></i>
-                            <p class="inline_block">4</p>
+                <div class="features back_white all_borders_round">
+                    <h2 class="all_h2">Features</h2>
+                    <div class="fetgrid text_center grid_three">
+                        <div class="aircondition">
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
                         </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink inline_block"></i>
-                            <p class="inline_block">2</p>
+
+                        <div class="aircondition">
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
                         </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun inline_block"></i>
-                            <p class="inline_block">2</p>
+
+                        <div class="aircondition">
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+                            <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="each inline_block">
-                    <img src="photo/house2.png" alt="">
-                    <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed inline_block"></i>
-                            <p class="inline_block">4</p>
-                        </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink inline_block"></i>
-                            <p class="inline_block">2</p>
-                        </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun inline_block"></i>
-                            <p class="inline_block">2</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="each inline_block">
-                    <img src="photo/house3.png" alt="">
-                    <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
-                        <h2 class="top_grid">
-                            <p> Malto House</p>
-                        </h2>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-bed inline_block"></i>
-                            <p class="inline_block">4</p>
+                <div class="line_gradient"></div>
+                <h1 class="font_three">Similar listings</h1>
+            </section>
+
+                <div class="houses">
+
+                    <div class="each inline_block">
+                        <img src="photo/house1.png" alt="">
+                        <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed inline_block"></i>
+                                <p class="inline_block">4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink inline_block"></i>
+                                <p class="inline_block">2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun inline_block"></i>
+                                <p class="inline_block">2</p>
+                            </div>
                         </div>
-                        <div class="padding_twenty border_right">
-                            <i class="fas fa-sink inline_block"></i>
-                            <p class="inline_block">2</p>
+                    </div>
+
+                    <div class="each inline_block">
+                        <img src="photo/house2.png" alt="">
+                        <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed inline_block"></i>
+                                <p class="inline_block">4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink inline_block"></i>
+                                <p class="inline_block">2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun inline_block"></i>
+                                <p class="inline_block">2</p>
+                            </div>
                         </div>
-                        <div class="padding_twenty">
-                            <i class="far fa-sun inline_block"></i>
-                            <p class="inline_block">2</p>
+                    </div>
+
+                    <div class="each inline_block">
+                        <img src="photo/house3.png" alt="">
+                        <div class="properties_dropdown back_white all_bottom_borders_round grid_three">
+                            <h2 class="top_grid">
+                                <p> Malto House</p>
+                            </h2>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-bed inline_block"></i>
+                                <p class="inline_block">4</p>
+                            </div>
+                            <div class="padding_twenty border_right">
+                                <i class="fas fa-sink inline_block"></i>
+                                <p class="inline_block">2</p>
+                            </div>
+                            <div class="padding_twenty">
+                                <i class="far fa-sun inline_block"></i>
+                                <p class="inline_block">2</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
     </main>
 
     <footer class="text_white">
         <section class="container">
             <div class="begin">
                 <h1 class="font_three inline_block">Make your dreams a <span>reality</span></h1>
-                <button class="btn">
-                    <a class="button text_center button_margin_top height_auto button_orange button_right block bold text_black"
-                        href='https://www.google.ru/' target='_blank'>Work with us
-                        <i class="fas fa-arrow-right inline_block"></i>
-                    </a>
-                </button>
+                <a class="button text_center button_margin_top height_auto button_orange button_right block bold text_black"
+                    href='#' target='_blank'>Work with us
+                    <i class="fas fa-arrow-right inline_block"></i>
+                </a>
             </div>
 
             <div class="main">
@@ -284,26 +292,26 @@
 
                 <div class="headingfooter">
                     <h3>Column Heading</h3>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
                 </div>
 
                 <div class="headingfooter">
                     <h3>Column Heading</h3>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
                 </div>
 
                 <div class="headingfooter">
                     <h3>Column Heading</h3>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
-                    <a href="" class="opacity text_white">Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
+                    <a class="opacity text_white" href='#'>Link goes here</a>
                 </div>
 
             </div>

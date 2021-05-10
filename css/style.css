@@ -2,7 +2,6 @@
 
 .top_background{
     height: 110vh;
-    width: 100%;
     background-size: cover;
     background-image:linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%), url('../photo/backhouse.png');
 }
@@ -60,7 +59,11 @@
 }
 
 .goodhands{
-    height: 100vh;
+    height: 600px;
+}
+
+.goodhands_reverse{
+    margin-top: 400px;
 }
 
 .goodhands_reverse .textgood{
@@ -69,17 +72,17 @@
 
 .team{
     display: inline-block;
-    margin-top: 100px;
     width: 700px;
 }
 
 .team_reverse{
     position: relative;
     bottom:600px;
-    left: 0px;
+    margin-top: 50px;
     transform: scale(-1, 1);
     display: inline-block;
     float: right;
+    
 }
 
 .nextplace h1{
@@ -94,7 +97,6 @@
 /* Dropdown menu  */
 .menudrop{
     position: relative;
-    display: flex;
     border-radius: 20px;
     width: auto;
     margin-bottom: 80px;
@@ -143,20 +145,15 @@
 }
 
 #border1:hover{
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 0 0 0;
 }
 
 #border2:hover{
-    border-radius: 0px 20px 0px 0px;
+    border-radius: 0 20px 0 0;
 } 
 
 
 /* Collections of houses */
-
-.grid{
-    position: relative;
-    width: 70vw;
-}
 
 .grid_photo{
     position: relative;
@@ -164,8 +161,8 @@
 
 .properties_dropdown{
     position: relative;
-    margin-bottom: 30px;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0 0 20px 20px;
+    grid-gap: 0;
 }
 
 .properties_dropdown p,img{
@@ -176,13 +173,10 @@
     padding-left:20px;
 } 
 
-.bottom_line{
-    margin-bottom: 200px;
+.house_collect{
+    width: 100%;
 }
 
-.house_collect{
-    max-width: 340px;
-}
 
 /* Div with black background */
 
@@ -227,16 +221,26 @@
 
 /* Reviews part */
 
+.top_review{
+    width: 300px;
+    margin: auto;
+    padding-top: 200px;
+}
+
 
 .review{
     position: relative;
     height: 100vh;
 }
 
+.client_blocks{
+    padding-top:60px ;
+    display: flex;
+    justify-content: space-between;
+}
+
 .client_block {
-    margin-right: 30px;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
     width: 300px;
 }
 
@@ -248,29 +252,19 @@
     background-color: black;
 }
 
-.properties_review .top_grid{
-    width: 350px;
-    margin: auto;
-    margin-bottom: 30px;
-}
-
-.properties_review{
-    position: relative;
-    margin-top: 200px;
-    width: 110%;
-}
-
-.review_h2{
+.review_p{
+    width: 300px;
     font-size: 1.5em;
-}
-
-.properties_review h2,div{
-    border: 0px;  
+    text-align: justify;
+    border-bottom: 0;
+    margin: 0;
+    margin-top: 40px;
+    padding:0 ;
 }
 
 .line_review{
     position: relative;
-    top: 150px;
-    margin: auto;
+    margin: 0 auto;
     width: 300px;
+
 }

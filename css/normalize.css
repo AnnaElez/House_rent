@@ -11,7 +11,7 @@ body{
 }
 
 .all_bottom_borders_round{
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0 0 20px 20px;
 }
 
 .border_none{
@@ -91,15 +91,10 @@ h1,h2,h3,h4,.bold{
 
 .button{
     position: relative;
-    border-radius: 0px 18px 0px 0px;
-    padding: 15px;
+    border-radius: 0 18px 0 0;
+    padding: 22px;
     width: 210px;
     font-size: 17px;
-}
-
-.btn{
-    background-color: transparent;
-    border: none;
 }
 
 .button_margin_top{
@@ -122,7 +117,7 @@ h1,h2,h3,h4,.bold{
 
 .button_right{
     float: right;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .block{
@@ -137,13 +132,17 @@ i{
 
 /* Header */
 
-
 .container{
     max-width: 1110px;
+    min-width: 420px;
     padding: 0 40px;
     margin: auto;
     height: auto;
 }
+
+
+/* Menu */
+
 
 .header_inner{
     display: flex;
@@ -153,17 +152,9 @@ i{
 }
 
 .menu_list{ 
-    margin-left: 200px;
     display: flex;
-}
-
-.menu_list-item{
-   
-    padding: 0 30px;
-}
-
-.center_li{
-    margin: auto;
+    justify-content: space-between;
+    width: 420px;
 }
 
 .menu a{
@@ -171,14 +162,18 @@ i{
     font-weight: bold;
 }
 
-.logo{
-    width: 100px; 
+.logo img{
+    max-width: 100%; 
 }
 
 /* Grid */
 .each{
     position: relative;
 } 
+
+.each img{
+    width: 100%;
+}
 
 .top_grid p, .b p{
     padding: 20px;
@@ -193,6 +188,7 @@ i{
 .grid_three{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
 }
 
 /* Border right */
@@ -236,7 +232,7 @@ span{
 
 .fa-arrow-right{
     color: white;
-    padding: 8px;
+    padding: 0 0 0 8px;
 }
 
 #fa-arrow-right{
@@ -248,8 +244,11 @@ span{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 160px;
-    width: 70vw;
     margin-top: 80px;   
+}
+
+.main .grid_three{
+    grid-gap: 15px;
 }
 
 .contact{
@@ -257,10 +256,9 @@ span{
 }
 
 .log{
-    width: 120px;
     grid-column: 1/4 ;
     grid-row: 1; 
-    border: 0px;
+    border: 0;
 }
 
 .contact *{
@@ -270,8 +268,10 @@ span{
 .headingfooter{
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
-.main a{
-    padding: 8px;
+.main a,h3{
+    text-align: left;
+    padding-bottom: 10px;
 }
